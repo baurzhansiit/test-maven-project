@@ -1,7 +1,16 @@
-# Preamble
-Test task includes developing of jenkins pipeline. Please find all supporting files in this repo.
+# Jenkins pipeline test with shared library
+This repository contain main code to perform tasks `build`, `database`, `deploy`, `test` inside jenkins pipeline, pipeline code and suplimentary funcrions implimented in separate repo (can be found [here](https://github.com/baurzhansiit/common-lib.git)).
 
-# Pipeline requirements
+# Setup your Jenkins before playing with this Repo
+
+- Jenkins -> Manage Jenkins -> Configure System -> Search: Global Pipeline Libraries (repo for shared library can be found [here](https://github.com/baurzhansiit/common-lib.git))
+- 
+
+
+
+
+
+
 
 Pipeline should be implemented as a shared library (initial shared library code could be found [here](https://github.com/Brialius/test-pipeline-library)), your code should be added into [Pipeline class](https://github.com/Brialius/test-pipeline-library/blob/master/src/com/example/Pipeline.groovy). 
 The pipeline should be able to:
