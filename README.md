@@ -1,7 +1,7 @@
 # Jenkins pipeline test with shared library
 This repository contains the main code to perform tasks `build`, `database`, `deploy`, `test` inside Jenkins pipeline. Pipeline code and supplementary functions implemented in separate repo and can be found [here](https://github.com/baurzhansiit/common-lib.git).
 
-# Setup your Jenkins before playing with this Repo
+## Setup your Jenkins before playing with this Repo
 
 - Jenkins -> Manage Jenkins -> Configure System -> Search: Global Pipeline Libraries (repo for shared library can be found [here](https://github.com/baurzhansiit/common-lib.git))
 
